@@ -35,7 +35,7 @@ class App extends Component {
               </NavItem>
               <NavItem
                 eventKey={2}
-                href="/https://ilcomarian.github.io/marianilco/marian.pdf"
+                href="https://ilcomarian.github.io/marianilco/marian.pdf"
                 target="_blank"
                 className="link"
               >
