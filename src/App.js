@@ -28,7 +28,7 @@ class App extends Component {
                 <NavLink
                   to="/projects"
                   className="link"
-                  activeClassName="activ"
+                  activeStyle={{ color: "grey" }}
                 >
                   <h4>Projects</h4>
                 </NavLink>
@@ -39,22 +39,14 @@ class App extends Component {
                 target="_blank"
                 className="link"
               >
-                {/* <a href="/marian.pdf" target="_blank" className="link">
-                  <h4>Resume</h4>
-                </a> */}{" "}
-                {/* <NavLink
-                  topathname="/marian.pdf"
-                  target="_blank"
-                  className="link"
-                > */}
-                <h4>Resume</h4>
+                <h4 style={{ color: "black" }}>Resume</h4>
                 {/* </NavLink> */}
               </NavItem>
               <NavItem eventKey={3}>
                 <NavLink
                   to="/contacts"
                   className="link"
-                  activeClassName="activ"
+                  activeStyle={{ color: "grey" }}
                 >
                   <h4>Contacts</h4>
                 </NavLink>

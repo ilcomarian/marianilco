@@ -139,9 +139,13 @@ input {
   text-decoration: none;
 }
 
-/* .link:active {
-} */
-.activ {
-  color: grey;
+.container a {
   text-decoration: none;
+}
+.container a:hover {
+  color: azure;
+}
+
+.container h4:hover {
+  color: azure;
 }
